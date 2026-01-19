@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>رسالة لك</title>
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  background: url('https://i.ibb.co/HpCR1sKq/b08458042b70cc97c34479f059d51da9.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+}
+.box {
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0.5); /* خلفية شفافة للنص لتوضيحه */
+  padding: 20px;
+  border-radius: 12px;
+  animation: fadeIn 3s ease;
+  margin-bottom: 20px;
+}
+h1 { font-size: 2.2em; margin-bottom: 10px; }
+p { font-size: 1.2em; line-height: 1.8; }
+button {
+  background-color: #ff4d6d;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ff1a3a;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+  <h1>إلى رحمة ❤️</h1>
+  <p>
+    تباهت بكِ الأزهارُ يا سيدة الوَرد<br>
+    تغارين مِن مَن وأنتِ أجملهُن.
+  </p>
+</div>
+
+<!-- زر تشغيل الأغنية -->
+<button onclick="window.open('https://youtu.be/jHC9VM6vOW0?si=PGuIeNjEr60If7MM', '_blank')">
+  تشغيل الأغنية 🎵
+</button>
+
+</body>
+</html>
